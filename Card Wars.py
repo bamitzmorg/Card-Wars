@@ -7,20 +7,22 @@ computer = "computer"
 decksize = input("Hello and welcome to card wars what kind of deck size are you going to play with 3,6,10 or 13?:")
 #if decsize == '3' or decksize == '6' or decksize == '10' or decksize =='13' is an if statement
 if decksize == '3' or decksize == '6' or decksize == '10' or decksize == '13':
-    print("Ok so you are going to play with a deck size of", (decksize),"...cool.")
+    print("You are going to play with a deck size of", (decksize),"...That's cool I guess...")
 #def function(): is a function          
 def function():
         player = input("Would you like to play with another person or with the computer?(person,computer):")
         if player == 'person':
-            nametwo = input("Ok so you are going to play with another person. What will his/her username be?:")
+            time.sleep(1)
+            nametwo = input("So you are going to play with another person, what will his/her username be?:")
+            time.sleep(1)
             print("Welcome", (nametwo))
             if decksize == '3':
                 namecard = random.randint(1,3)
                 time.sleep(1)
-                print("Ok", name,"your card is", namecard)
+                print(name,"your card is", namecard)
                 nametwocard = random.randint(1,3)
                 time.sleep(1)
-                print("Ok", nametwo,"your card is", nametwocard)
+                print(nametwo,"your card is", nametwocard)
                 # if namecard > nametwocard: is a comparative operator
                 if namecard > nametwocard:
                     time.sleep(1)
@@ -52,10 +54,10 @@ def function():
             elif decksize == '6':
                 namecard = random.randint(1,6)
                 time.sleep(1)
-                print("Ok", name,"your card is", namecard)
+                print(name,"your card is", namecard)
                 nametwocard = random.randint(1,6)
                 time.sleep(1)
-                print("Ok", nametwo,"your card is", nametwocard)
+                print(nametwo,"your card is", nametwocard)
                 if namecard > nametwocard:
                     time.sleep(1)
                     print("...")
@@ -86,10 +88,10 @@ def function():
             elif decksize == '10':
                 namecard = random.randint(1,10)
                 time.sleep(1)
-                print("Ok", name,"your card is", namecard)
+                print(name,"your card is", namecard)
                 nametwocard = random.randint(1,10)
                 time.sleep(1)
-                print("Ok", nametwo,"your card is", nametwocard)
+                print(nametwo,"your card is", nametwocard)
                 if namecard > nametwocard:
                     time.sleep(1)
                     print("...")
@@ -120,10 +122,10 @@ def function():
             elif decksize == '13':
                 namecard = random.randint(1,13)
                 time.sleep(1)
-                print("Ok", name,"your card is", namecard)
+                print(name,"your card is", namecard)
                 nametwocard = random.randint(1,13)
                 time.sleep(1)
-                print("Ok", nametwo,"your card is", nametwocard)
+                print(nametwo,"your card is", nametwocard)
                 if namecard > nametwocard:
                     time.sleep(1)
                     print("...")
@@ -156,10 +158,10 @@ def function():
             if decksize == '3':
                 namecard = random.randint(1,3)
                 time.sleep(1)
-                print("Ok", name,"your card is", namecard)
+                print(name,"your card is", namecard)
                 computercard = random.randint(1,3)
                 time.sleep(1)
-                print("Ok the computers card is", computercard)
+                print("The computers card is", computercard)
                 if namecard > computercard:
                     time.sleep(1)
                     print("...")
@@ -190,10 +192,10 @@ def function():
             elif decksize == '6':
                 namecard = random.randint(1,6)
                 time.sleep(1)
-                print("Ok", name,"your card is", namecard)
+                print(name,"your card is", namecard)
                 computercard = random.randint(1,6)
                 time.sleep(1)
-                print("Ok the computers card is", computercard)
+                print("The computers card is", computercard)
                 if namecard > computercard:
                     time.sleep(1)
                     print("...")
@@ -224,10 +226,10 @@ def function():
             elif decksize == '10':
                 namecard = random.randint(1,10)
                 time.sleep(1)
-                print("Ok", name,"your card is", namecard)
+                print(name,"your card is", namecard)
                 computercard = random.randint(1,10)
                 time.sleep(1)
-                print("Ok the computers card is", computercard)
+                print("The computers card is", computercard)
                 if namecard > computercard:
                     time.sleep(1)
                     print("...")
@@ -258,10 +260,10 @@ def function():
             elif decksize == '13':
                 namecard = random.randint(1,13)
                 time.sleep(1)
-                print("Ok", name,"your card is", namecard)
+                print(name,"your card is", namecard)
                 computercard = random.randint(1,13)
                 time.sleep(1)
-                print("Ok the computers card is", computercard)
+                print("The computers card is", computercard)
                 if namecard > computercard:
                     time.sleep(1)
                     print("...")
@@ -290,9 +292,13 @@ def function():
                     time.sleep(1)
                     print("Computer wins!")
                     time.sleep(1)
-        playagain = input("Do you want to play again?:")
+        time.sleep(1)
+        playagain = input("Do you wish to play again?:")
         if playagain == 'yes':
             function()
-        
+        else:
+            time.sleep(1)
+            print("Hope you had a great time playing this boring game. But if you do want to have a night of fun call this nu... Nevermind goodbye!")
         
 function()
+
