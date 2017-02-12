@@ -25,31 +25,19 @@ def function():
                 print(nametwo,"your card is", nametwocard)
                 # if namecard > nametwocard: is a comparative operator
                 if namecard > nametwocard:
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)                    
-                    print("...")
-                    time.sleep(1)
+                    for x in range(0, 3):
+                        time.sleep(1)
+                        print("...")
                     print(name,"wins!")
                 elif namecard == nametwocard:
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)                    
-                    print("...")
-                    time.sleep(1)
+                    for x in range(0, 3):
+                        time.sleep(1)
+                        print("...")
                     print("It's a tie!")
                 else:
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)                    
-                    print("...")
-                    time.sleep(1)
+                    for x in range(0, 3):
+                        time.sleep(1)
+                        print("...")
                     print(nametwo,"wins!")
             elif decksize == '6':
                 namecard = random.randint(1,6)
@@ -59,31 +47,19 @@ def function():
                 time.sleep(1)
                 print(nametwo,"your card is", nametwocard)
                 if namecard > nametwocard:
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)                    
-                    print("...")
-                    time.sleep(1)
+                    for x in range(0, 3):
+                        time.sleep(1)
+                        print("...")
                     print(name,"wins!")
                 elif namecard == nametwocard:
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)                    
-                    print("...")
-                    time.sleep(1)
+                    for x in range(0, 3):
+                        time.sleep(1)
+                        print("...")
                     print("It's a tie!")
                 else:
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)                    
-                    print("...")
-                    time.sleep(1)
+                    for x in range(0, 3):
+                        time.sleep(1)
+                        print("...")
                     print(nametwo,"wins!")
             elif decksize == '10':
                 namecard = random.randint(1,10)
@@ -93,31 +69,19 @@ def function():
                 time.sleep(1)
                 print(nametwo,"your card is", nametwocard)
                 if namecard > nametwocard:
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)                    
-                    print("...")
-                    time.sleep(1)
+                    for x in range(0, 3):
+                        time.sleep(1)
+                        print("...")
                     print(name,"wins!")
                 elif namecard == nametwocard:
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)                    
-                    print("...")
-                    time.sleep(1)
+                    for x in range(0, 3):
+                        time.sleep(1)
+                        print("...")
                     print("It's a tie!")
                 else:
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)                    
-                    print("...")
-                    time.sleep(1)
+                    for x in range(0, 3):
+                        time.sleep(1)
+                        print("...")
                     print(nametwo,"wins!")
             elif decksize == '13':
                 namecard = random.randint(1,13)
@@ -127,31 +91,19 @@ def function():
                 time.sleep(1)
                 print(nametwo,"your card is", nametwocard)
                 if namecard > nametwocard:
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)                    
-                    print("...")
-                    time.sleep(1)
+                    for x in range(0, 3):
+                        time.sleep(1)
+                        print("...")
                     print(name,"wins!")
                 elif namecard == nametwocard:
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)                    
-                    print("...")
-                    time.sleep(1)
+                    for x in range(0, 3):
+                        time.sleep(1)
+                        print("...")
                     print("It's a tie!")
                 else:
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)                    
-                    print("...")
-                    time.sleep(1)
+                    for x in range(0, 3):
+                        time.sleep(1)
+                        print("...")
                     print(nametwo,"wins!")
         elif player == 'computer':
             print("Why are you not playing with any of your friends? Are you lonely? If so, call this number for a night of fu-... Nevermind have fun with the computer nerd.")
@@ -163,31 +115,19 @@ def function():
                 time.sleep(1)
                 print("The computers card is", computercard)
                 if namecard > computercard:
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)                    
-                    print("...")
-                    time.sleep(1)
+                    for x in range(0, 3):
+                        time.sleep(1)
+                        print("...")
                     print(name,"wins!")
                 elif namecard == computercard:
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)                    
-                    print("...")
-                    time.sleep(1)       
+                    for x in range(0, 3):
+                        time.sleep(1)
+                        print("...")      
                     print("It's a tie!")
                 else:
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)                    
-                    print("...")
-                    time.sleep(1)
+                    for x in range(0, 3):
+                        time.sleep(1)
+                        print("...")
                     print("Computer wins!")
             elif decksize == '6':
                 namecard = random.randint(1,6)
@@ -197,31 +137,19 @@ def function():
                 time.sleep(1)
                 print("The computers card is", computercard)
                 if namecard > computercard:
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)                    
-                    print("...")
-                    time.sleep(1)
+                    for x in range(0, 3):
+                        time.sleep(1)
+                        print("...")
                     print(name,"wins!")
                 elif namecard == computercard:
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)                    
-                    print("...")
-                    time.sleep(1)
+                    for x in range(0, 3):
+                        time.sleep(1)
+                        print("...")
                     print("It's a tie!")
                 else:
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)                    
-                    print("...")
-                    time.sleep(1)
+                    for x in range(0, 3):
+                        time.sleep(1)
+                        print("...")
                     print("Computer wins!")
             elif decksize == '10':
                 namecard = random.randint(1,10)
@@ -231,31 +159,18 @@ def function():
                 time.sleep(1)
                 print("The computers card is", computercard)
                 if namecard > computercard:
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)                    
-                    print("...")
-                    time.sleep(1)
-                    print(name,"wins!")
+                    for x in range(0, 3):
+                        time.sleep(1)
+                        print("...")
                 elif namecard == computercard:
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)                    
-                    print("...")
-                    time.sleep(1)
+                    for x in range(0, 3):
+                        time.sleep(1)
+                        print("...")
                     print("It's a tie!")
                 else:
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)                    
-                    print("...")
-                    time.sleep(1)
+                    for x in range(0, 3):
+                        time.sleep(1)
+                        print("...")
                     print("Computer wins!")
             elif decksize == '13':
                 namecard = random.randint(1,13)
@@ -265,33 +180,21 @@ def function():
                 time.sleep(1)
                 print("The computers card is", computercard)
                 if namecard > computercard:
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)                    
-                    print("...")
-                    time.sleep(1)
+                    for x in range(0, 3):
+                        time.sleep(1)
+                        print("...")
                     print(name,"wins!")
                 elif namecard == computercard:
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)                    
-                    print("...")
-                    time.sleep(1)
+                    for x in range(0, 3):
+                        time.sleep(1)
+                        print("...")
                     print("It's a tie!")
                 else:
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)
-                    print("...")
-                    time.sleep(1)                    
-                    print("...")
+                    for x in range(0, 3):
+                        time.sleep(1)
+                        print("...")
                     time.sleep(1)
                     print("Computer wins!")
-                    time.sleep(1)
         time.sleep(1)
         playagain = input("Do you wish to play again?:")
         if playagain == 'yes':
@@ -301,4 +204,3 @@ def function():
             print("Hope you had a great time playing this boring game. But if you do want to have a night of fun call this nu... Nevermind goodbye!")
         
 function()
-
